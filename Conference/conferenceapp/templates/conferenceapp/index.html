@@ -803,28 +803,28 @@
           <p>Register for the Conference here and book your seat for the event</p>
         </div>
         <div class="form">
-          <form action="/" method="post" role="form" class="php-email-form">
+          <form action="" method="post" role="form" class="php-email-form">
         {% csrf_token %}
             <div class="form-row">
               <div class="form-group col-md-6">
-                <!-- <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /> -->
-                {{form.name}}
+                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                
                 <div class="validate"></div>
               </div>
               <div class="form-group col-md-6">
-                <!-- <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" /> -->
-                {{form.email}}
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+               
                 <div class="validate"></div>
               </div>
             </div>
             <div class="form-group">
-              <!-- <input type="text" class="form-control" name="District" id="subject" placeholder="District" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" /> -->
-              {{form.district}}
+               <input type="text" class="form-control" name="District" id="subject" placeholder="District" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <!-- <input type="text" class="form-control" name="profession" id="subject" placeholder="Profession" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" /> -->
-              {{form.profession}}
+              <input type="text" class="form-control" name="profession" id="subject" placeholder="Profession" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          
               <div class="validate"></div>
             </div>
             <!-- <div class="form-group">
